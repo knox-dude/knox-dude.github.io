@@ -1,13 +1,18 @@
-import { NavLink } from "react-router-dom";
-
 function NavBar() {
   return (
-    <div className="NavBar top-0 fixed bg-gray-300 h-screen flex-col flex">
-      <NavLink className={'m-2'} to="/home">Home</NavLink>
-      <NavLink className={'m-2'} to="/about">About</NavLink>
-      <NavLink className={'m-2'} to="/projects">Projects</NavLink>
-    </div>
-  )
+    <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-white font-bold text-xl">
+          MyWebsite
+        </div>
+        <div className="space-x-4">
+          <a href="#" className="text-gray-300 hover:text-white">Home</a>
+          <a href="#" className="text-gray-300 hover:text-white">About</a>
+          <a href="#" className="text-gray-300 hover:text-white">Contact</a>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default NavBar;
