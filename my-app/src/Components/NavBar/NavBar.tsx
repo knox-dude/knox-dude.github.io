@@ -13,14 +13,14 @@ function NavBar() {
 
   return (
     <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="flex justify-between items-center">
         <div className="text-white font-bold text-xl">
           Andrew Knox
         </div>
-        <div className="hidden sm:flex space-x-4">
+        <div className="hidden sm:flex flex-grow justify-end items-center">
           <a href="#" className="text-gray-300 hover:text-white">Home</a>
-          <a href="#" className="text-gray-300 hover:text-white">About</a>
-          <a href="#" className="text-gray-300 hover:text-white">Contact</a>
+          <a href="#" className="text-gray-300 hover:text-white ml-4">About</a>
+          <a href="#" className="text-gray-300 hover:text-white ml-4">Contact</a>
         </div>
         <div className="sm:hidden">
           <button onClick={toggleDropdown} className="text-gray-300 hover:text-white focus:outline-none">
