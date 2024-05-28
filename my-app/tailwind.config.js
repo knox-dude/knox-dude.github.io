@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const colors = require('tailwindcss/colors');
-
+// eslint-disable-next-line no-undef
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   darkMode: 'class',
@@ -10,7 +9,6 @@ module.exports = {
       colors: {
         primary: '#202225',
         secondary: '#5865f2',
-        gray: colors.neutral,
         gray: {
           900: '#202225',
           800: '#2f3136',
