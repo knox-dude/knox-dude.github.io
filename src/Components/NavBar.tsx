@@ -1,50 +1,37 @@
-import { useState } from 'react'
-import { FaBars } from 'react-icons/fa'
+import { FaSun, FaMoon, FaLinkedin, FaGithub} from 'react-icons/fa'
+import useDarkMode from '@/hooks/useDarkMode'
+
+const ThemeIcon = () => {
+  const [darkTheme, setDarkTheme] = useDarkMode()
+  const handleMode = () => setDarkTheme(!darkTheme)
+  return (
+    <span onClick={handleMode}>
+      {darkTheme ? (
+        <FaSun size="24" className="top-navigation" />
+      ) : (
+        <FaMoon size="24" className="top-navigation" />
+      )}
+    </span>
+  )
+}
 
 function NavBar() {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen)
-  }
-
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="ui p-4 ">
       <div className="flex items-center justify-between">
-        <div className="text-xl font-bold text-white">Andrew Knox</div>
-        <div className="hidden flex-grow items-center justify-end sm:flex">
-          <a href="#" className="text-gray-300 hover:text-white">
-            Home
-          </a>
-          <a href="#" className="ml-4 text-gray-300 hover:text-white">
-            About
-          </a>
-          <a href="#" className="ml-4 text-gray-300 hover:text-white">
-            Contact
-          </a>
+        <div className="top-navigation text-xl font-bold">
+          <a href="#">Andrew Knox</a>
         </div>
-        <div className="sm:hidden">
-          <button
-            onClick={toggleDropdown}
-            className="text-gray-300 hover:text-white focus:outline-none"
-          >
-            <FaBars className="h-6 w-6" />
-          </button>
+        <div className="flex-grow items-center justify-end flex">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/knox-dude">
+            <FaGithub size={24} className='top-navigation' />
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/knox99/">
+            <FaLinkedin size={24} className='top-navigation' />
+          </a>
+          <ThemeIcon />
         </div>
       </div>
-      {isOpen && (
-        <div className="bg-gray-800 sm:hidden">
-          <a href="#" className="block py-2 text-gray-300 hover:text-white">
-            Home
-          </a>
-          <a href="#" className="block py-2 text-gray-300 hover:text-white">
-            About
-          </a>
-          <a href="#" className="block py-2 text-gray-300 hover:text-white">
-            Contact
-          </a>
-        </div>
-      )}
     </nav>
   )
 }
