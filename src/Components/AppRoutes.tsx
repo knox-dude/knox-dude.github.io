@@ -1,6 +1,6 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-import Homepage from "@/Components/Homepage";
-import About from "@/Components/About";
+import { Routes, Route, Navigate } from 'react-router-dom'
+import Homepage from '@/Components/Homepage'
+import About from '@/Components/About'
 
 function AppRoutes() {
   return (
@@ -9,7 +9,7 @@ function AppRoutes() {
       <Route path="/about" element={<About />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
-  );
+  )
 }
 
-export default AppRoutes;
+export default AppRoutes
