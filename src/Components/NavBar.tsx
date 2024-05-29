@@ -19,8 +19,8 @@ function NavBar() {
   return (
     <nav className="ui p-4 ">
       <div className="flex items-center justify-between">
-        <div className="top-navigation text-xl font-bold">
-          <a href="#">Andrew Knox</a>
+        <div className="text text-xl font-bold">
+          <p>Andrew Knox</p>
         </div>
         <div className="flex-grow items-center justify-end flex">
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/knox-dude">
