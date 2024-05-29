@@ -14,7 +14,7 @@ interface ProjectListProps {
 const ProjectList = ({ projects }: ProjectListProps) => {
   return (
     <>
-      <h1 className=" text-center text-3xl ">Projects</h1>
+      <h1 className=" text text-center text-3xl ">Projects</h1>
       <div className=" m-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {projects.map((project) => (
           <ProjectCard

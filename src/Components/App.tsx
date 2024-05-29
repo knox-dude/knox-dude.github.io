@@ -3,6 +3,7 @@ import ProjectList from './ProjectList'
 import About from './About'
 import BackgroundColor from './BackgroundColor'
 
+
 interface Project {
   id: number
   imagePath: string
