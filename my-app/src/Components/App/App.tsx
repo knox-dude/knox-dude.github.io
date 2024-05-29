@@ -1,8 +1,6 @@
-import { HashRouter } from "react-router-dom"
-// import NavBar from "@/Components/NavBar/NavBar"
-import AppRoutes from "@/Components/AppRoutes/AppRoutes"
 import NavBar from "../NavBar/NavBar"
 import ProjectList from "../ProjectList/ProjectList"
+import About from "../About/About";
 
 interface Project {
   id: number;
@@ -36,11 +34,9 @@ function App() {
 
   return (
     <div className="app">
-      < HashRouter >
-        <NavBar />
-        < AppRoutes />
-        <ProjectList projects={projects} />
-      </HashRouter >
+      <NavBar />
+      <About />
+      <ProjectList projects={projects} />
     </div>
   )
 }
