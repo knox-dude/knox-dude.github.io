@@ -24,14 +24,13 @@ module.exports = {
           dark: '#5D36A2', 
         },
         light: { // very light gray, backgrounds in light mode/text in dark mode
-          DEFAULT: '#767676', 
-          light: '#949494',   
-          dark: '#585858', 
+          DEFAULT: '#f2f2f2', 
+          light: '#fdfdf2',   
+          dark: '#cfd6dd', 
         },
         dark: { // very dark gray, backgrounds in dark mode/text in light mode
-          DEFAULT: '#1A1A1A', 
-          light: '#333333',   
-          dark: '#000000', 
+          DEFAULT: '#0d0a20', 
+          light: '#262534',  
         },
         ui: { // small contrast with background, used for borders, dividers, etc
           DEFAULT: '#D3CCC8', 
