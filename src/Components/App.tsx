@@ -1,8 +1,7 @@
-import NavBar from "../NavBar/NavBar"
-import ProjectList from "../ProjectList/ProjectList"
-import About from "../About/About";
-import "./App.css"
-import BackgroundColor from "../BackgroundColor";
+import NavBar from "./NavBar"
+import ProjectList from "./ProjectList"
+import About from "./About";
+import BackgroundColor from "./BackgroundColor";
 
 interface Project {
   id: number;

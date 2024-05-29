@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import Homepage from "@/Components/Homepage/Homepage";
-import About from "@/Components/About/About";
+import Homepage from "@/Components/Homepage";
+import About from "@/Components/About";
 
 function AppRoutes() {
   return (
