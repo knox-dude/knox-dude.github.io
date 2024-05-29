@@ -2,9 +2,9 @@ import ProjectCard from './ProjectCard'
 
 interface Project {
   id: number
-  imagePath: string
+  images: string[]
   description: string
-  link: string
+  link: string | null
 }
 
 interface ProjectListProps {
@@ -19,7 +19,7 @@ const ProjectList = ({ projects }: ProjectListProps) => {
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
-            imagePath={project.imagePath}
+            imagePath={project.images[0]}
             description={project.description}
             link={project.link}
           />

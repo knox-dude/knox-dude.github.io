@@ -1,13 +1,14 @@
 interface ProjectCardProps {
   imagePath: string
   description: string
-  link: string
+  link: string | null
 }
 
 function ProjectCard({ imagePath, description, link }: ProjectCardProps) {
+  const hrefLink = link ? link : "/";
   return (
     <a
-      href={link}
+      href={hrefLink}
       className="block overflow-hidden rounded-md bg-gray-200 shadow-md"
     >
       <img src={imagePath} alt="Project" className="object-cover" />
