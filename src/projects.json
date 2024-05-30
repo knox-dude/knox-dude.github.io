@@ -8,27 +8,35 @@
       "/photos/social-scuba-3.png"
     ],
     "description": "A web app made for SCUBA divers that allows you to add friends and divesites, log dives, and compare stats.",
-    "link": "https://social-scuba.org/"
+    "links": {
+      "github": "https://github.com/knox-dude/social-scuba-website",
+      "site": "https://social-scuba.org/"
+    }
   },
   {
     "id": 2,
     "title": "Jobly",
     "images": ["photos/jobly-1.png", "photos/jobly-2.png", "photos/jobly-3.png"],
     "description": "A web app linked to an API backend where users can search up fake companies and jobs, and then apply for these fake jobs. The data is fake but the backend is very real! I created the API using express and the frontend using Typescript and React.",
-    "link": "https://jobly-frontend-47w2.onrender.com/"
+    "links": {
+      "github": "https://github.com/knox-dude/jobly-react",
+      "site": "https://jobly-frontend-47w2.onrender.com/"
+    }
   },
   {
     "id": 3,
     "title": "Hacker News Clone",
     "images": ["photos/hacker-news-clone.PNG"],
     "description": "A clone of hacker news (https://hackernews.com) built with basic HTML/CSS/JS with all functionality of hacker news.",
-    "link": null
+    "links": {
+      "github":"https://github.com/knox-dude/hacker-news-clone-springboard"
+    }
   },
   {
     "id": 4,
     "title": "Jeopardy",
     "images": ["photos/jeopardy-game.PNG"],
-    "description": "A small app built in basic HTML/CSS/JS that lets you play jeopardy",
-    "link": null
+    "description": "A small app built in basic HTML/CSS/JS that lets you play jeopardy.",
+    "links": {}
   }
 ]

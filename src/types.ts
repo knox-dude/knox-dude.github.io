@@ -10,8 +10,8 @@ export interface Project {
   description: string
   title: string
   links: {
-    github: string | null
-    site: string | null
+    github?: string
+    site?: string
   }
 }
 
