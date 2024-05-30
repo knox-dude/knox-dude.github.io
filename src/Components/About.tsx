@@ -14,8 +14,9 @@ function About() {
           React, TailwindCSS, and more.
         </p>
       </div>
-      <div className=" m-2 h-auto max-w-md p-2 xl:max-w-lg">
-        <img className="rounded-xl" src="photos/andrew-photo.jpeg" alt="" />
+      <div className=" group w-2/3 m-2 h-auto sm:w-1/3 p-2">
+        <img className="hover: rounded-xl" src="photos/andrew-photo.jpeg" alt="" />
+        <p className="scale-0 group-hover:scale-100 duration-300 text text-center text-sm">"Wow he has a cute dog? We should hire him!"</p>
       </div>
     </div>
   )
