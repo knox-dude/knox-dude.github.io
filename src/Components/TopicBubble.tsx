@@ -9,7 +9,7 @@ function TopicBubble({text, color}: TopicBubbleProps) {
       className="rounded-full px-4 py-2 text-white"
       style={{ backgroundColor: color }}
     >
-      {text}
+      <p className="mx-auto">{text}</p>
     </figure>
   )
 }
