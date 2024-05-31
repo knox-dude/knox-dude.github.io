@@ -29,8 +29,9 @@ module.exports = {
           dark: '#cfd6dd', 
         },
         dark: { // very dark gray, backgrounds in dark mode/text in light mode
-          DEFAULT: '#0d0a20', 
-          light: '#262534',  
+          DEFAULT:'#1e293b', 
+          light: '#334155',
+          dark: '#0f172a'
         },
         ui: { // small contrast with background, used for borders, dividers, etc
           DEFAULT: '#D3CCC8', 
@@ -43,6 +44,7 @@ module.exports = {
         '2/5': '40%',
         '3/5': '60%',
         '4/5': '80%',
+        '1/6': '16.66666%',
       },
     },
   },
