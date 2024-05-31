@@ -15,12 +15,12 @@
     "topics": [
       {
         "id": 1,
-        "title": "Flask",
+        "text": "Flask",
         "color": "green"
       },
       {
         "id": 2,
-        "title": "postgres",
+        "text": "postgres",
         "color": "darkblue"
       }
     ]
@@ -41,12 +41,12 @@
     "topics": [
       {
         "id": 1,
-        "title": "Flask",
+        "text": "Flask",
         "color": "green"
       },
       {
         "id": 2,
-        "title": "postgres",
+        "text": "postgres",
         "color": "darkblue"
       }
     ]
@@ -62,12 +62,12 @@
     "topics": [
       {
         "id": 1,
-        "title": "Flask",
+        "text": "Flask",
         "color": "green"
       },
       {
         "id": 2,
-        "title": "postgres",
+        "text": "postgres",
         "color": "darkblue"
       }
     ]
@@ -81,12 +81,12 @@
     "topics": [
       {
         "id": 1,
-        "title": "Flask",
+        "text": "Flask",
         "color": "green"
       },
       {
         "id": 2,
-        "title": "postgres",
+        "text": "postgres",
         "color": "darkblue"
       }
     ]
