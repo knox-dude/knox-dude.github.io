@@ -1,11 +1,5 @@
 import ProjectCard from './ProjectCard'
-
-interface Project {
-  id: number
-  images: string[]
-  description: string
-  link: string | null
-}
+import { Project } from '@/types'
 
 interface ProjectListProps {
   projects: Project[]
@@ -19,9 +13,12 @@ const ProjectList = ({ projects }: ProjectListProps) => {
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
-            imagePath={project.images[0]}
+            id={project.id}
+            images={project.images}
             description={project.description}
-            link={project.link}
+            title={project.title}
+            links={project.links}
+            topics={project.topics}
           />
         ))}
       </div>
