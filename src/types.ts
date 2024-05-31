@@ -9,6 +9,7 @@ export interface Project {
   images: string[]
   description: string
   title: string
+  topics: Topic[]
   links: {
     github?: string
     site?: string
