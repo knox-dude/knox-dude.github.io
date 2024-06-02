@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: { // CR == contrast ratio
         primary: { // brand primary, min 4:1 CR with white
-          DEFAULT: '#93591A',
+          DEFAULT: '#8b541b',
           light: '#BE7322', 
           dark: '#753E00', 
         },
@@ -46,6 +46,12 @@ module.exports = {
         '4/5': '80%',
         '1/6': '16.66666%',
       },
+      aspectRatio: {
+        '3/2': '3 / 2'
+      },
+      backgroundImage: {
+        'waves-svg': "url('/waves.svg')"
+      }
     },
   },
   plugins: [],

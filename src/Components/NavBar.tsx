@@ -17,7 +17,7 @@ const ThemeIcon = () => {
 
 function NavBar() {
   return (
-    <nav className="ui p-4 ">
+    <nav className=" p-4 bg-primary">
       <div className="flex items-center justify-between">
         <div className="text text-xl font-bold">
           <p>Andrew Knox</p>
