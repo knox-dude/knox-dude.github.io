@@ -2,7 +2,7 @@ import AnimatedWaves from "./AnimatedWaves"
 
 function About() {
   return (
-    <>
+    <div className="relative">
       <AnimatedWaves />
       <figure className="about-bg bg-image">
         <div className=" m-2 flex flex-col items-center justify-between p-2 sm:flex-row">
@@ -25,7 +25,7 @@ function About() {
           </div>
         </div>
       </figure>
-    </>
+    </div>
   )
 }
 
