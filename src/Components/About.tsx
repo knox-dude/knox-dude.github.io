@@ -1,6 +1,5 @@
 function About() {
   return (
-    <div className="relative">
       <figure className="about-bg bg-image">
         <div className=" m-2 flex flex-col items-center justify-between p-2 sm:flex-row">
           <div className="sm:mr-4 sm:w-2/3">
@@ -22,7 +21,6 @@ function About() {
           </div>
         </div>
       </figure>
-    </div>
   )
 }
 

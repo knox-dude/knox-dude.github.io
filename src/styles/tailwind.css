@@ -13,6 +13,6 @@
     @apply bg-light-dark dark:bg-dark-light
   }
   .bg-image {
-    @apply -z-10 aspect-3/2 w-dvw -m-2 bg-no-repeat bg-center bg-cover bg-waves-svg
+    @apply -z-10 aspect-3/2 w-dvw bg-no-repeat bg-center bg-cover bg-waves-svg-light dark:bg-waves-svg-dark
   }
 }
