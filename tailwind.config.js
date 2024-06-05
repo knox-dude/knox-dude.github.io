@@ -50,8 +50,8 @@ module.exports = {
         '3/2': '3 / 2'
       },
       backgroundImage: {
-        'waves-svg-dark': "url('public/about-page-bg-dark.svg')",
-        'waves-svg-light': "url('public/about-page-bg-light.svg')",
+        'waves-svg-dark': "url('/about-page-bg-dark.svg')",
+        'waves-svg-light': "url('/about-page-bg-light.svg')",
       }
     },
   },
