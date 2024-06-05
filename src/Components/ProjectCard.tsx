@@ -20,12 +20,16 @@ function ProjectCard({ images, description, title, links, topics }: Project) {
         <>
           <a
             href={links.github}
+            target="_blank" 
+            rel="noopener noreferrer"
             className="flex h-full w-full items-center justify-center border-r-2 border-ui"
           >
             <FaGithub size={40} />
           </a>
           <a
             href={links.site}
+            target="_blank" 
+            rel="noopener noreferrer"
             className="flex h-full w-full items-center justify-center"
           >
             <FaLink size={40} />
@@ -35,7 +39,9 @@ function ProjectCard({ images, description, title, links, topics }: Project) {
     } else if (links.github) {
       return (
         <a
-          href={links.site}
+          href={links.github}
+          target="_blank" 
+          rel="noopener noreferrer"
           className="flex h-full w-full items-center justify-center"
         >
           <FaGithub size={40} />
@@ -45,6 +51,8 @@ function ProjectCard({ images, description, title, links, topics }: Project) {
       return (
         <a
           href={links.site}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex h-full w-full items-center justify-center"
         >
           <FaLink size={40} />
