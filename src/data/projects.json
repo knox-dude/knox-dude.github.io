@@ -16,12 +16,32 @@
       {
         "id": 1,
         "text": "Flask",
-        "color": "green"
+        "color": "darkgreen"
       },
       {
         "id": 2,
         "text": "postgres",
         "color": "darkblue"
+      },
+      {
+        "id": 3,
+        "text": "Jinja",
+        "color": "darkred"
+      },
+      {
+        "id": 4,
+        "text": "Nginx",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "text": "Bootstrap CSS",
+        "color":"purple"
+      },
+      {
+        "id": 6,
+        "text": "VanillaJS",
+        "color": "#f0db4f"
       }
     ]
   },

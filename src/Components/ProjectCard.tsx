@@ -76,7 +76,7 @@ function ProjectCard({ images, description, title, links, topics }: Project) {
           className="w-full rounded object-cover"
         />
       </section>
-      <section className="topics grid grid-cols-2 gap-2 p-4">
+      <section className="topics flex flex-wrap gap-2 p-4 justify-start text-center">
         {topicList()}
       </section>
       <section className="description mx-2 flex-grow">
