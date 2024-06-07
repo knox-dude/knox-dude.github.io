@@ -76,12 +76,12 @@ function ProjectCard({ images, description, title, links, topics }: Project) {
           className="w-full rounded object-cover"
         />
       </section>
-      <section className="topics flex flex-wrap gap-2 p-4 justify-start text-center">
-        {topicList()}
-      </section>
       <section className="description mx-2 flex-grow">
         <h1 className="text mb-2 text-center text-3xl">{title}</h1>
         <p className="text m-2">{description}</p>
+      </section>
+      <section className="topics flex flex-wrap gap-2 p-4 justify-start text-center">
+        {topicList()}
       </section>
       <nav className="flex items-center justify-around bg-ui-light p-2">
         {navLinks()}

@@ -7,10 +7,10 @@ function About() {
               Andrew Knox
             </h1>
             <h2 className="text mt-3 text-lg font-medium tracking-tight lg:text-2xl xl:text-6xl">
-              Junior Fullstack Dev
+              Fullstack Software Engineer
             </h2>
             <p className="text mt-4 max-w-sm leading-normal lg:max-w-xl xl:max-w-2xl xl:text-2xl">
-              I am a junior developer who builds pleasing frontend interfaces and
+              I am a fullstack software engineer who builds pleasing frontend interfaces and
               the APIs that interact with them. My tech stack includes Typescript,
               React, TailwindCSS, and more.
             </p>

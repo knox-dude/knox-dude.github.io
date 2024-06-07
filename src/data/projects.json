@@ -41,7 +41,7 @@
       {
         "id": 6,
         "text": "VanillaJS",
-        "color": "#f0db4f"
+        "color": "#DFC513"
       }
     ]
   },
@@ -61,13 +61,23 @@
     "topics": [
       {
         "id": 1,
-        "text": "Flask",
-        "color": "green"
+        "text": "Typescript",
+        "color": "blue"
       },
       {
         "id": 2,
+        "text": "React",
+        "color": "gray"
+      },
+      {
+        "id": 3,
         "text": "postgres",
         "color": "darkblue"
+      },
+      {
+        "id": 4,
+        "text": "Bootstrap CSS",
+        "color": "purple"
       }
     ]
   },
@@ -82,13 +92,13 @@
     "topics": [
       {
         "id": 1,
-        "text": "Flask",
-        "color": "green"
+        "text": "VanillaJS",
+        "color": "#DFC513"
       },
       {
         "id": 2,
-        "text": "postgres",
-        "color": "darkblue"
+        "text": "jQuery",
+        "color": "#0769AD"
       }
     ]
   },
@@ -101,13 +111,8 @@
     "topics": [
       {
         "id": 1,
-        "text": "Flask",
-        "color": "green"
-      },
-      {
-        "id": 2,
-        "text": "postgres",
-        "color": "darkblue"
+        "text": "VanillaJS",
+        "color": "#DFC513"
       }
     ]
   }
