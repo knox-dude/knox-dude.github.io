@@ -1,4 +1,5 @@
-import { FaLink, FaGithub, FaSlash } from 'react-icons/fa'
+import { FaLink, FaGithub } from 'react-icons/fa'
+import { FaLinkSlash } from "react-icons/fa6";
 import { Project } from '@/types'
 import TopicBubble from './TopicBubble'
 
@@ -61,7 +62,7 @@ function ProjectCard({ images, description, title, links, topics }: Project) {
     } else {
       return (
         <span className="flex h-full w-full items-center justify-center">
-          <FaSlash size={40} />
+          <FaLinkSlash size={40} />
         </span>
       )
     }
