@@ -52,7 +52,26 @@ module.exports = {
       backgroundImage: {
         'waves-svg-dark': "url('/about-page-bg-dark.svg')",
         'waves-svg-light': "url('/about-page-bg-light.svg')",
-      }
+      },
+      keyframes: {
+        bounceIn: {
+          '0%': {
+            transform: 'scale(0.8)',
+            opacity: 0.5,
+          },
+          '50%': {
+            transform: 'scale(1.05)',
+            opacity: 0.7,
+          },
+          '100%': {
+            transform: 'scale(1)',
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        bounceIn: 'bounceIn 0.5s ease-in-out',
+      },
     },
   },
   plugins: [],
