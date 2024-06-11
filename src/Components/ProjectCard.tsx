@@ -2,6 +2,7 @@ import { FaLink, FaGithub } from 'react-icons/fa'
 import { FaLinkSlash } from "react-icons/fa6";
 import { Project } from '@/types'
 import TopicBubble from './TopicBubble'
+import ImageCarousel from './ImageCarousel';
 
 function ProjectCard({ images, description, title, links, topics }: Project) {
   // create list of topic components 
@@ -70,13 +71,7 @@ function ProjectCard({ images, description, title, links, topics }: Project) {
 
   return (
     <article className="ui m-4 flex flex-col overflow-hidden rounded-lg shadow-lg">
-      <section className="project-picture flex-shrink-0 p-2">
-        <img
-          src={images[0]}
-          alt="Project photo"
-          className="w-full rounded object-cover"
-        />
-      </section>
+      <ImageCarousel images={images} />
       <section className="description mx-2 flex-grow">
         <h1 className="text mb-2 text-center text-3xl">{title}</h1>
         <p className="text m-2">{description}</p>
