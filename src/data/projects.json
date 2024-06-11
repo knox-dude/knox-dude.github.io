@@ -53,7 +53,7 @@
       "photos/jobly-2.png",
       "photos/jobly-3.png"
     ],
-    "description": "A web app linked to an API backend where users can search up fake companies and jobs, and then apply for these fake jobs. The data is fake but the backend is very real! I created the API using express and the frontend using Typescript and React.",
+    "description": "A web app linked to an API backend where users can search up fake companies and jobs, and then apply for these fake jobs. I created the API using express and the frontend using Typescript and React.",
     "links": {
       "github": "https://github.com/knox-dude/jobly-react",
       "site": "https://jobly-frontend-47w2.onrender.com/"
@@ -83,6 +83,30 @@
   },
   {
     "id": 3,
+    "title": "Sticker Smash",
+    "images": [
+      "/photos/sticker-smash-1.png",
+      "/photos/sticker-smash-2.png"
+    ],
+    "description": "A small mobile/web app made with Expo that allows users to upload and edit photos, then download them.",
+    "links": {
+      "github": "https://github.com/knox-dude/StickerSmash"
+    },
+    "topics": [
+      {
+        "id": 1,
+        "text": "React Native",
+        "color": "gray"
+      },
+      {
+        "id": 2,
+        "text": "Expo",
+        "color": "peru"
+      }
+    ]
+  },
+  {
+    "id": 4,
     "title": "Hacker News Clone",
     "images": ["photos/hacker-news-clone.PNG"],
     "description": "A clone of hacker news (https://hackernews.com) built with basic HTML/CSS/JS with all functionality of hacker news.",
@@ -103,7 +127,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Jeopardy",
     "images": ["photos/jeopardy-game.PNG"],
     "description": "A small app built in basic HTML/CSS/JS that lets you play jeopardy.",
