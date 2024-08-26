@@ -1,6 +1,41 @@
 [
   {
     "id": 1,
+    "title": "BPM Playlist Builder for Spotify",
+    "images": [
+      "/photos/spotify-1.png",
+      "/photos/spotify-2.png"
+    ],
+    "description": "A web app made for runners that allows Spotify users to parse their playlists for songs in a tempo range, and create new playlists with those songs.",
+    "links": {
+      "github": "https://github.com/knox-dude/next_spotify_bpm_playlist_builder",
+      "site": "https://spotify-bpm-playlist-builder.vercel.app/"
+    },
+    "topics": [
+      {
+        "id": 1,
+        "text": "Typescript",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "text": "React",
+        "color": "gray"
+      },
+      {
+        "id": 3,
+        "text": "Tailwind",
+        "color": "lightblue"
+      },
+      {
+        "id": 4,
+        "text": "Next.js",
+        "color": "darkgray"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "title": "Social Scuba",
     "images": [
       "/photos/social-scuba-1.png",
@@ -46,7 +81,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Jobly",
     "images": [
       "photos/jobly-1.png",
@@ -82,7 +117,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Sticker Smash",
     "images": [
       "/photos/sticker-smash-1.png",
@@ -106,7 +141,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Hacker News Clone",
     "images": ["photos/hacker-news-clone.PNG"],
     "description": "A clone of hacker news (https://hackernews.com) built with basic HTML/CSS/JS with all functionality of hacker news.",
@@ -127,7 +162,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Jeopardy",
     "images": ["photos/jeopardy-game.PNG"],
     "description": "A small app built in basic HTML/CSS/JS that lets you play jeopardy.",
