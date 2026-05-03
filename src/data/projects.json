@@ -6,173 +6,31 @@
       "/photos/spotify-1.png",
       "/photos/spotify-2.png"
     ],
-    "description": "A web app made for runners that allows Spotify users to parse their playlists for songs in a tempo range, and create new playlists with those songs.",
+    "description": "A web app made for runners that lets Spotify users filter their playlists by tempo and create new playlists from matching songs.",
+    "status": "archived",
+    "statusNote": "Spotify deprecated the API endpoints this project relied on — the app is no longer functional, but it was a blast to build.",
     "links": {
-      "github": "https://github.com/knox-dude/next_spotify_bpm_playlist_builder",
-      "site": "https://spotify-bpm-playlist-builder.vercel.app/"
+      "github": "https://github.com/knox-dude/next_spotify_bpm_playlist_builder"
     },
     "topics": [
-      {
-        "id": 1,
-        "text": "Typescript",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "text": "React",
-        "color": "gray"
-      },
-      {
-        "id": 3,
-        "text": "Tailwind",
-        "color": "lightblue"
-      },
-      {
-        "id": 4,
-        "text": "Next.js",
-        "color": "darkgray"
-      }
+      { "id": 1, "text": "TypeScript", "color": "#3178c6" },
+      { "id": 2, "text": "React", "color": "#61dafb" },
+      { "id": 3, "text": "Next.js", "color": "#000000" },
+      { "id": 4, "text": "Tailwind", "color": "#06b6d4" }
     ]
   },
   {
     "id": 2,
-    "title": "Social Scuba",
-    "images": [
-      "/photos/social-scuba-1.png",
-      "/photos/social-scuba-2.png",
-      "/photos/social-scuba-3.png"
-    ],
-    "description": "A web app made for SCUBA divers that allows you to add friends and divesites, log dives, and compare stats.",
-    "links": {
-      "github": "https://github.com/knox-dude/social-scuba-website",
-      "site": "https://social-scuba.org/"
-    },
-    "topics": [
-      {
-        "id": 1,
-        "text": "Flask",
-        "color": "darkgreen"
-      },
-      {
-        "id": 2,
-        "text": "postgres",
-        "color": "darkblue"
-      },
-      {
-        "id": 3,
-        "text": "Jinja",
-        "color": "darkred"
-      },
-      {
-        "id": 4,
-        "text": "Nginx",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "text": "Bootstrap CSS",
-        "color":"purple"
-      },
-      {
-        "id": 6,
-        "text": "VanillaJS",
-        "color": "#DFC513"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Jobly",
-    "images": [
-      "photos/jobly-1.png",
-      "photos/jobly-2.png",
-      "photos/jobly-3.png"
-    ],
-    "description": "A web app linked to an API backend where users can search up fake companies and jobs, and then apply for these fake jobs. I created the API using express and the frontend using Typescript and React.",
-    "links": {
-      "github": "https://github.com/knox-dude/jobly-react",
-      "site": "https://jobly-frontend-47w2.onrender.com/"
-    },
-    "topics": [
-      {
-        "id": 1,
-        "text": "Typescript",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "text": "React",
-        "color": "gray"
-      },
-      {
-        "id": 3,
-        "text": "postgres",
-        "color": "darkblue"
-      },
-      {
-        "id": 4,
-        "text": "Bootstrap CSS",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Sticker Smash",
-    "images": [
-      "/photos/sticker-smash-1.png",
-      "/photos/sticker-smash-2.png"
-    ],
-    "description": "A small mobile/web app made with Expo that allows users to upload and edit photos, then download them.",
-    "links": {
-      "github": "https://github.com/knox-dude/StickerSmash"
-    },
-    "topics": [
-      {
-        "id": 1,
-        "text": "React Native",
-        "color": "gray"
-      },
-      {
-        "id": 2,
-        "text": "Expo",
-        "color": "peru"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Hacker News Clone",
-    "images": ["photos/hacker-news-clone.PNG"],
-    "description": "A clone of hacker news (https://hackernews.com) built with basic HTML/CSS/JS with all functionality of hacker news.",
-    "links": {
-      "github": "https://github.com/knox-dude/hacker-news-clone-springboard"
-    },
-    "topics": [
-      {
-        "id": 1,
-        "text": "VanillaJS",
-        "color": "#DFC513"
-      },
-      {
-        "id": 2,
-        "text": "jQuery",
-        "color": "#0769AD"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Jeopardy",
-    "images": ["photos/jeopardy-game.PNG"],
-    "description": "A small app built in basic HTML/CSS/JS that lets you play jeopardy.",
+    "title": "AI Superbill Generator",
+    "images": [],
+    "description": "A freelance project using AI/LLM technology to automatically generate medical superbills for a direct-pay dermatology clinic, reducing manual billing documentation time significantly.",
+    "status": "in-progress",
+    "statusNote": "Currently in active development — screenshots coming soon.",
     "links": {},
     "topics": [
-      {
-        "id": 1,
-        "text": "VanillaJS",
-        "color": "#DFC513"
-      }
+      { "id": 1, "text": "Python", "color": "#3572A5" },
+      { "id": 2, "text": "OpenAI API", "color": "#10a37f" },
+      { "id": 3, "text": "LangChain", "color": "#1c3c3c" }
     ]
   }
 ]

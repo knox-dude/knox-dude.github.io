@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "category": "Languages",
+    "skills": ["C#", "TypeScript", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "category": "Frameworks",
+    "skills": [".NET / ASP.NET", "React", "Next.js"]
+  },
+  {
+    "id": 3,
+    "category": "Tools & Cloud",
+    "skills": ["Git", "Azure", "Docker"]
+  },
+  {
+    "id": 4,
+    "category": "AI / LLM",
+    "skills": ["OpenAI API", "LangChain"]
+  }
+]

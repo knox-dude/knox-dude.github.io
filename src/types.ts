@@ -14,5 +14,17 @@ export interface Project {
     github?: string
     site?: string
   }
+  status?: 'archived' | 'in-progress'
+  statusNote?: string
+}
+
+export interface Skill {
+  name: string
+}
+
+export interface SkillCategory {
+  id: number
+  category: string
+  skills: string[]
 }
 
