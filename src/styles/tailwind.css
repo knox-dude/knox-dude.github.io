@@ -4,7 +4,7 @@
 
 @layer components {
   .top-navigation {
-    @apply mx-2 text-dark hover:text-ui-dark dark:text-light dark:hover:text-ui-dark hover:cursor-pointer
+    @apply mx-2 text-dark dark:text-light hover:text-primary dark:hover:text-primary-light hover:cursor-pointer transition-colors duration-200
   }
   .text {
     @apply text-dark dark:text-light
@@ -12,7 +12,16 @@
   .ui {
     @apply bg-light-dark dark:bg-dark-light
   }
-  .bg-image {
-    @apply -z-10 aspect-3/2 w-dvw bg-no-repeat bg-center bg-cover bg-waves-svg-light dark:bg-waves-svg-dark
+  .glass-nav {
+    @apply bg-white/80 dark:bg-dark/80 backdrop-blur-md border-b border-ui dark:border-ui-dark
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent
+  }
+  .gradient-ring {
+    @apply p-[3px] rounded-full bg-gradient-to-br from-primary via-secondary to-accent
+  }
+  .skill-pill {
+    @apply px-3 py-1 rounded-full text-sm font-medium bg-light-dark dark:bg-dark text-dark dark:text-light border border-ui dark:border-ui-dark
   }
 }

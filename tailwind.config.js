@@ -7,37 +7,40 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      colors: { // CR == contrast ratio
-        primary: { // brand primary, min 4:1 CR with white
-          DEFAULT: '#8b541b',
-          light: '#BE7322', 
-          dark: '#753E00', 
+      colors: {
+        primary: {
+          DEFAULT: '#6366f1', // indigo-500
+          light: '#818cf8',   // indigo-400
+          dark: '#4f46e5',    // indigo-600
         },
-        secondary: { // compliments primary, min 4:1 CR with white
-          DEFAULT: '#1A5493',
-          light: '#226DBE',
-          dark: '#123B6A',
+        secondary: {
+          DEFAULT: '#f59e0b', // amber-500
+          light: '#fbbf24',   // amber-400
+          dark: '#d97706',    // amber-600
         },
-        accent: { // contrasts primary & secondary, no text on top, most colors work
-          DEFAULT: '#874EE4',
-          light: '#B67FFF',
-          dark: '#5D36A2', 
+        accent: {
+          DEFAULT: '#14b8a6', // teal-500
+          light: '#2dd4bf',   // teal-400
+          dark: '#0d9488',    // teal-600
         },
-        light: { // very light gray, backgrounds in light mode/text in dark mode
-          DEFAULT: '#f2f2f2', 
-          light: '#fdfdf2',   
-          dark: '#cfd6dd', 
+        light: {
+          DEFAULT: '#fafafa',
+          light: '#ffffff',
+          dark: '#f0f0f5',
         },
-        dark: { // very dark gray, backgrounds in dark mode/text in light mode
-          DEFAULT:'#1e293b', 
-          light: '#334155',
-          dark: '#0f172a'
+        dark: {
+          DEFAULT: '#0a0f1e',
+          light: '#111827',
+          dark: '#050a14',
         },
-        ui: { // small contrast with background, used for borders, dividers, etc
-          DEFAULT: '#D3CCC8', 
-          light: '#E8E4E2',  
-          dark: '#B8B2B0', 
+        ui: {
+          DEFAULT: '#e5e7eb',
+          light: '#f3f4f6',
+          dark: '#374151',
         },
+      },
+      fontFamily: {
+        display: ['"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       spacing: {
         '1/5': '20%',
@@ -48,10 +51,6 @@ module.exports = {
       },
       aspectRatio: {
         '3/2': '3 / 2'
-      },
-      backgroundImage: {
-        'waves-svg-dark': "url('/about-page-bg-dark.svg')",
-        'waves-svg-light': "url('/about-page-bg-light.svg')",
       },
       keyframes: {
         bounceIn: {
